@@ -1,0 +1,20 @@
+// DistrhoPlugin5yn7h_Info.h - required by DPF
+#pragma once
+
+#define DISTRHO_PLUGIN_BRAND   "PatF"
+#define DISTRHO_PLUGIN_NAME    "5yn7h_"
+#define DISTRHO_PLUGIN_URI     "https://patf.dev/plugins/5yn7h_"
+#define DISTRHO_PLUGIN_CLAP_ID "dev.patf.5yn7h_"
+#define DISTRHO_PLUGIN_VERSION d_cconst(1, 0, 0)
+#define DISTRHO_PLUGIN_DESCRIPTION "Plaits-inspired macro-oscillator (no wavetables)"
+#define DISTRHO_PLUGIN_IS_SYNTH 1
+#define DISTRHO_PLUGIN_NUM_INPUTS  0
+#define DISTRHO_PLUGIN_NUM_OUTPUTS 2
+#define DISTRHO_PLUGIN_WANT_MIDI_INPUT 1
+#define DISTRHO_PLUGIN_WANT_MIDI_OUTPUT 0
+#define DISTRHO_PLUGIN_WANT_STATE 0
+#define DISTRHO_PLUGIN_WANT_PROGRAMS 0
+#define DISTRHO_PLUGIN_WANT_TIMEPOS 0
+#define DISTRHO_PLUGIN_WANT_LATENCY 0
+#define DISTRHO_PLUGIN_WANT_DIRECT_ACCESS 0
+#define DISTRHO_UI_USER_RESIZABLE 0
