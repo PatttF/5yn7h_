@@ -1,6 +1,6 @@
 # 5yn7h_ Synth Plugin
 
-A modern, multi-engine synthesizer plugin built with DPF (DISTRHO Plugin Framework).
+A modern, multi-engine synthesizer plugin .
 
 ## Features
 
@@ -19,9 +19,9 @@ A modern, multi-engine synthesizer plugin built with DPF (DISTRHO Plugin Framewo
 	12. PWM
 
 - **Effects:**
-	- Improved Reverb (Schroeder/Moorer, not Freeverb)
-	- Delay (with feedback and lowpass)
-	- Chorus (multi-voice, smooth LFO)
+	- Reverb
+	- Delay
+	- Chorus
 
 - **Moog Ladder Filter:**
 	- Cutoff (40 Hz – 18 kHz)
@@ -32,22 +32,10 @@ A modern, multi-engine synthesizer plugin built with DPF (DISTRHO Plugin Framewo
 	- No custom UI; all parameters are exposed to the host/DAW
 	- All sliders and controls are automatable
 
-- **Robust Engine Selector:**
-	- Integer parameter, robust to host quirks
-	- Always allows engine 0 (Sine) to be selected
-	- Out-of-range or fractional values are clamped and rounded
-
-## Parameter Defaults
-
-- Filter Wet: **0** (fully dry)
-- Engine: **0** (Sine)
-- All other parameters: sensible musical defaults
-
 ## Usage
 
 1. Load the plugin in your DAW or plugin host.
 2. Use the host’s parameter controls to select engines and adjust effects/filters.
-3. All features are accessible via the host’s UI.
 
 ## License
 MIT
